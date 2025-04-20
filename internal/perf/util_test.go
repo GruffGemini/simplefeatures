@@ -3,7 +3,7 @@ package perf_test
 import (
 	"math"
 
-	"github.com/peterstace/simplefeatures/geom"
+	"github.com/GruffGemini/simplefeatures/geom"
 )
 
 // regularPolygon computes a regular polygon circumscribed by a circle with the

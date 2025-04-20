@@ -4,7 +4,7 @@ import (
 	"image"
 	"image/draw"
 
-	"github.com/peterstace/simplefeatures/geom"
+	"github.com/GruffGemini/simplefeatures/geom"
 	"golang.org/x/image/vector"
 )
 

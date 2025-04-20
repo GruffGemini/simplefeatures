@@ -1,6 +1,6 @@
 package carto
 
-import "github.com/peterstace/simplefeatures/geom"
+import "github.com/GruffGemini/simplefeatures/geom"
 
 // LambertCylindricalEqualArea allows projecting (longitude, latitude)
 // coordinates to (x, y) pairs via the Lambert cylindrical equal area

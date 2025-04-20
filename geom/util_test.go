@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/peterstace/simplefeatures/geom"
+	"github.com/GruffGemini/simplefeatures/geom"
 )
 
 func geomFromWKT(tb testing.TB, wkt string, nv ...geom.NoValidate) geom.Geometry {

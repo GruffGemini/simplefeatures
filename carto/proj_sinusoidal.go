@@ -1,6 +1,6 @@
 package carto
 
-import "github.com/peterstace/simplefeatures/geom"
+import "github.com/GruffGemini/simplefeatures/geom"
 
 // Sinusoidal allows projecting (longitude, latitude) coordinates to (x, y)
 // pairs via the sinusoidal projection.

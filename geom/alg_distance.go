@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/peterstace/simplefeatures/rtree"
+	"github.com/GruffGemini/simplefeatures/rtree"
 )
 
 // Distance calculates the shortest distance (using the Euclidean metric)

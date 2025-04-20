@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/peterstace/simplefeatures/geom"
+	"github.com/GruffGemini/simplefeatures/geom"
 )
 
 func TestZeroGeometry(t *testing.T) {

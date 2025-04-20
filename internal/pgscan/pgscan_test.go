@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"testing"
 
+	"github.com/GruffGemini/simplefeatures/geom"
 	_ "github.com/lib/pq"
-	"github.com/peterstace/simplefeatures/geom"
 )
 
 func TestPostgresScan(t *testing.T) {

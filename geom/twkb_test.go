@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/peterstace/simplefeatures/geom"
+	"github.com/GruffGemini/simplefeatures/geom"
 )
 
 // TWKBTestCases is outside a single test function to allow multiple

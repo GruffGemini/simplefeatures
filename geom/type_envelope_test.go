@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/peterstace/simplefeatures/geom"
-	"github.com/peterstace/simplefeatures/rtree"
+	"github.com/GruffGemini/simplefeatures/geom"
+	"github.com/GruffGemini/simplefeatures/rtree"
 )
 
 func onePtEnv(x, y float64) geom.Envelope {

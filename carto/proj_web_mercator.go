@@ -1,7 +1,7 @@
 package carto
 
 import (
-	"github.com/peterstace/simplefeatures/geom"
+	"github.com/GruffGemini/simplefeatures/geom"
 )
 
 // WebMercator is a variant of the Web Mercator projection that is used for web

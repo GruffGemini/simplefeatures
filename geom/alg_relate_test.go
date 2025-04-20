@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/peterstace/simplefeatures/geom"
+	"github.com/GruffGemini/simplefeatures/geom"
 )
 
 // These tests aren't exhaustive, because we are leveraging the Relate

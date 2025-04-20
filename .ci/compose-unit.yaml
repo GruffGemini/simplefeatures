@@ -1,9 +1,9 @@
 services:
   tests:
     image: golang:1.17
-    working_dir: /go/src/github.com/peterstace/simplefeatures
+    working_dir: /go/src/github.com/GruffGemini/simplefeatures
     entrypoint: go test -covermode=count -coverprofile=coverage.out -test.count=1 -test.run=. ./geom ./rtree
     volumes:
-      - ..:/go/src/github.com/peterstace/simplefeatures
+      - ..:/go/src/github.com/GruffGemini/simplefeatures
     environment:
       - GO111MODULE=on

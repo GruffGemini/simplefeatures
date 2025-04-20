@@ -113,7 +113,7 @@ __Special thanks to Val Gridnev and Albert Teoh for contributing to this release
 2024-04-15
 
 - Adds support for the `sfnopkgconfig` build tag, which has an effect on the
-  build process of the `github.com/peterstace/geos` package. It causes the
+  build process of the `github.com/GruffGemini/geos` package. It causes the
   `#cgo pkg-config` directive to be replaced with the `#cgo LDFLAGS: -lgeos_c`
   directive (which was the previous behaviour, before v0.47.1).  This is useful
   in environments where `pkg-config` is not available or the `geos.pc` file is
@@ -126,7 +126,7 @@ __Special thanks to Val Gridnev and Albert Teoh for contributing to this release
 
 __Special thanks to Val Gridnev and Albert Teoh for contributing to this release.__
 
-- Uses `#cgo pkg-config` directives in the `github.com/peterstace/geos`
+- Uses `#cgo pkg-config` directives in the `github.com/GruffGemini/geos`
   library, rather than manipulating `LDFLAGS` directly. This fixes an issue
   where the library could not be built on some Mac environments.
 
@@ -145,7 +145,7 @@ __Special thanks to Albert Teoh for contributing to this release.__
   benchmark suite.
 
 - Unify the GEOS wrappers used for the
-  `github.com/peterstace/simplefeatures/geos` package and the package used for
+  `github.com/GruffGemini/simplefeatures/geos` package and the package used for
   reference implementation tests.
 
 ## v0.46.0
@@ -192,7 +192,7 @@ __Special thanks to Albert Teoh for contributing to this release.__
 
 This release contains a large number of breaking changes, primarily surrounding
 geometry validation. See
-https://github.com/peterstace/simplefeatures/discussions/525 for background and
+https://github.com/GruffGemini/simplefeatures/discussions/525 for background and
 an overview of the changes.
 
 - **Breaking change**: The `geom.ConstructorOption` type has been removed.
@@ -205,7 +205,7 @@ an overview of the changes.
   construction.
 
 - **Breaking change**: Geometry results from GEOS (wrapped by the
-  `github.com/peterstace/simplefeatures/geos` package) are no longer validated.
+  `github.com/GruffGemini/simplefeatures/geos` package) are no longer validated.
   The variadic constructor options in function signatures have been removed.
   If users wish to validate these results, then `Validate()` can be called
   manually.
@@ -855,12 +855,12 @@ MultiPolygon, and GeometryCollection). The `Type` method now returns a
 - Unexports the partially implemented `Intersection` method. It will be
   reexported once the feature is complete.
 
-- Fixes a memory related bug in the `github.com/peterstace/simplefeatures/geos`
+- Fixes a memory related bug in the `github.com/GruffGemini/simplefeatures/geos`
   package.
 
 - Adds a wrapper for the GEOS simplify function.
 
-- Simplifies the `github.com/peterstace/simplefeatures/geos` package by not
+- Simplifies the `github.com/GruffGemini/simplefeatures/geos` package by not
   exporting the 'handle' concept. The package now just exposes standalone
 functions.
 
@@ -868,7 +868,7 @@ functions.
 
 2020-04-05
 
-- Adds a new package `github.com/peterstace/simplefeatures/geos` that wraps the
+- Adds a new package `github.com/GruffGemini/simplefeatures/geos` that wraps the
   [GEOS](https://github.com/libgeos/geos) library. The following functions are
 wrapped: Equals, Disjoint, Touches, Contains, Covers, Intersects, Within,
 CoveredBy, Crosses, Overlaps, Union, Intersection, and Buffer.

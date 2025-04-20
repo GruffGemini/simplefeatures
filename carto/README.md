@@ -1,6 +1,6 @@
 # `carto` package
 
-[![Documentation](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat)](https://pkg.go.dev/github.com/peterstace/simplefeatures/carto?tab=doc)
+[![Documentation](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat)](https://pkg.go.dev/github.com/GruffGemini/simplefeatures/carto?tab=doc)
 
 Package carto provides cartography functionality for working with and making
 maps.
@@ -13,14 +13,14 @@ This includes:
   - Earth radius definitions.
 
 See
-[godoc](https://pkg.go.dev/github.com/peterstace/simplefeatures/carto?tab=doc)
+[godoc](https://pkg.go.dev/github.com/GruffGemini/simplefeatures/carto?tab=doc)
 for the full package documentation.
 
 ---
 
 The following section shows supported projections. The code used to generate
 the images in this section can be found
-[here](https://github.com/peterstace/simplefeatures/tree/master/internal/cartodemo).
+[here](https://github.com/GruffGemini/simplefeatures/tree/master/internal/cartodemo).
 
 [**Equirectangular projection**](https://en.wikipedia.org/wiki/Equirectangular_projection)
 

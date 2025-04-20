@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/peterstace/simplefeatures/geom"
-	"github.com/peterstace/simplefeatures/internal/rawgeos"
+	"github.com/GruffGemini/simplefeatures/geom"
+	"github.com/GruffGemini/simplefeatures/internal/rawgeos"
 )
 
 func unaryChecks(g geom.Geometry, lg *log.Logger) error {
@@ -672,7 +672,7 @@ func checkIntersects(g1, g2 geom.Geometry, log *log.Logger) error {
 
 		// Simplefeatures sometimes gives an incorrect result for this due to
 		// numerical precision issues. Would be solved by
-		// https://github.com/peterstace/simplefeatures/issues/274
+		// https://github.com/GruffGemini/simplefeatures/issues/274
 		"LINESTRING(0.5 0,0.5000000000000001 0.5)":                              true,
 		"MULTILINESTRING((0 0,2 2.000000000000001),(1 0,-1 2.000000000000001))": true,
 
@@ -765,7 +765,7 @@ var skipIntersection = map[string]bool{
 	"POLYGON((1.5 1,1.3535533905932737 0.6464466094067263,1 0.5,0.6464466094067263 0.6464466094067263,0.5 0.9999999999999999,0.6464466094067262 1.3535533905932737,0.9999999999999999 1.5,1.3535533905932737 1.353553390593274,1.5 1))": true,
 
 	// Cause simplefeatures DCEL operations to fail with "no rings" error. See
-	// https://github.com/peterstace/simplefeatures/pull/497 for details.
+	// https://github.com/GruffGemini/simplefeatures/pull/497 for details.
 	"POLYGON((-83.58253051 32.73168239,-83.59843118 32.74617142,-83.70048117 32.63984372,-83.58253051 32.73168239))": true,
 	"POLYGON((-83.70047745 32.63984661,-83.68891846 32.5989632,-83.58253417 32.73167955,-83.70047745 32.63984661))":  true,
 }
@@ -797,7 +797,7 @@ var skipDifference = map[string]bool{
 	"POLYGON((1 0,0.9807852804032304 -0.19509032201612825,0.9238795325112867 -0.3826834323650898,0.8314696123025452 -0.5555702330196022,0.7071067811865476 -0.7071067811865475,0.5555702330196023 -0.8314696123025452,0.38268343236508984 -0.9238795325112867,0.19509032201612833 -0.9807852804032304,0.00000000000000006123233995736766 -1,-0.1950903220161282 -0.9807852804032304,-0.3826834323650897 -0.9238795325112867,-0.555570233019602 -0.8314696123025455,-0.7071067811865475 -0.7071067811865476,-0.8314696123025453 -0.5555702330196022,-0.9238795325112867 -0.3826834323650899,-0.9807852804032304 -0.1950903220161286,-1 -0.00000000000000012246467991473532,-0.9807852804032304 0.19509032201612836,-0.9238795325112868 0.38268343236508967,-0.8314696123025455 0.555570233019602,-0.7071067811865477 0.7071067811865475,-0.5555702330196022 0.8314696123025452,-0.38268343236509034 0.9238795325112865,-0.19509032201612866 0.9807852804032303,-0.00000000000000018369701987210297 1,0.1950903220161283 0.9807852804032304,0.38268343236509 0.9238795325112866,0.5555702330196018 0.8314696123025455,0.7071067811865474 0.7071067811865477,0.8314696123025452 0.5555702330196022,0.9238795325112865 0.3826834323650904,0.9807852804032303 0.19509032201612872,1 0))":                                                                                                                                                                                                                                                                               true,
 
 	// Cause simplefeatures DCEL operations to fail with "no rings" error. See
-	// https://github.com/peterstace/simplefeatures/pull/497 for details.
+	// https://github.com/GruffGemini/simplefeatures/pull/497 for details.
 	"POLYGON((-83.58253051 32.73168239,-83.59843118 32.74617142,-83.70048117 32.63984372,-83.58253051 32.73168239))": true,
 	"POLYGON((-83.70047745 32.63984661,-83.68891846 32.5989632,-83.58253417 32.73167955,-83.70047745 32.63984661))":  true,
 
@@ -817,7 +817,7 @@ var skipSymDiff = map[string]bool{
 	"MULTILINESTRING((0 1,0.3333333333 0.6666666667),(0.3333333333 0.6666666667,1 0))":                                               true,
 
 	// Cause simplefeatures DCEL operations to fail with "no rings" error. See
-	// https://github.com/peterstace/simplefeatures/pull/497 for details.
+	// https://github.com/GruffGemini/simplefeatures/pull/497 for details.
 	"POLYGON((-83.58253051 32.73168239,-83.59843118 32.74617142,-83.70048117 32.63984372,-83.58253051 32.73168239))": true,
 	"POLYGON((-83.70047745 32.63984661,-83.68891846 32.5989632,-83.58253417 32.73167955,-83.70047745 32.63984661))":  true,
 
@@ -836,7 +836,7 @@ var skipSymDiff = map[string]bool{
 
 var skipUnion = map[string]bool{
 	// Cause simplefeatures DCEL operations to fail with "no rings" error. See
-	// https://github.com/peterstace/simplefeatures/pull/497 for details.
+	// https://github.com/GruffGemini/simplefeatures/pull/497 for details.
 	"POLYGON((-83.58253051 32.73168239,-83.59843118 32.74617142,-83.70048117 32.63984372,-83.58253051 32.73168239))": true,
 	"POLYGON((-83.70047745 32.63984661,-83.68891846 32.5989632,-83.58253417 32.73167955,-83.70047745 32.63984661))":  true,
 }

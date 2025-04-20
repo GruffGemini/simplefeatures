@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/peterstace/simplefeatures/geom"
-	"github.com/peterstace/simplefeatures/geos"
-	"github.com/peterstace/simplefeatures/internal/rawgeos"
+	"github.com/GruffGemini/simplefeatures/geom"
+	"github.com/GruffGemini/simplefeatures/geos"
+	"github.com/GruffGemini/simplefeatures/internal/rawgeos"
 )
 
 func geomFromWKT(t *testing.T, wkt string, nv ...geom.NoValidate) geom.Geometry {

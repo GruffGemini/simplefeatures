@@ -6,8 +6,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/peterstace/simplefeatures/geom"
-	"github.com/peterstace/simplefeatures/internal/cartodemo/rasterize"
+	"github.com/GruffGemini/simplefeatures/geom"
+	"github.com/GruffGemini/simplefeatures/internal/cartodemo/rasterize"
 )
 
 func TestDrawLine(t *testing.T) {

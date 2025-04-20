@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"unsafe"
 
-	"github.com/peterstace/simplefeatures/rtree"
+	"github.com/GruffGemini/simplefeatures/rtree"
 )
 
 // MultiLineString is a linear geometry that consists of a collection of

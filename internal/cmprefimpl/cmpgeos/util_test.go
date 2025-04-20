@@ -5,7 +5,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/peterstace/simplefeatures/geom"
+	"github.com/GruffGemini/simplefeatures/geom"
 )
 
 func TestMantissaTerminatesQuickly(t *testing.T) {

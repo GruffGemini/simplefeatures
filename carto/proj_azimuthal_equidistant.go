@@ -1,7 +1,7 @@
 package carto
 
 import (
-	"github.com/peterstace/simplefeatures/geom"
+	"github.com/GruffGemini/simplefeatures/geom"
 )
 
 // AzimuthalEquidistant allows projecting (longitude, latitude) coordinates to

@@ -3,7 +3,7 @@ package geom
 import (
 	"math"
 
-	"github.com/peterstace/simplefeatures/rtree"
+	"github.com/GruffGemini/simplefeatures/rtree"
 )
 
 type side int

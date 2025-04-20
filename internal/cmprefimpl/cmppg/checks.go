@@ -11,7 +11,7 @@ import (
 	"testing"
 	"text/scanner"
 
-	"github.com/peterstace/simplefeatures/geom"
+	"github.com/GruffGemini/simplefeatures/geom"
 )
 
 func checkWKTParse(t *testing.T, pg PostGIS, candidates []string) {

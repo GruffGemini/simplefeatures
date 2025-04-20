@@ -1,11 +1,11 @@
 # Simple Features
 
-[![Documentation](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat)](https://pkg.go.dev/github.com/peterstace/simplefeatures/geom?tab=doc)
-[![Build Status](https://github.com/peterstace/simplefeatures/workflows/build/badge.svg)](https://github.com/peterstace/simplefeatures/actions)
+[![Documentation](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat)](https://pkg.go.dev/github.com/GruffGemini/simplefeatures/geom?tab=doc)
+[![Build Status](https://github.com/GruffGemini/simplefeatures/workflows/build/badge.svg)](https://github.com/GruffGemini/simplefeatures/actions)
 [![Go Report
-Card](https://goreportcard.com/badge/github.com/peterstace/simplefeatures)](https://goreportcard.com/report/github.com/peterstace/simplefeatures)
+Card](https://goreportcard.com/badge/github.com/GruffGemini/simplefeatures)](https://goreportcard.com/report/github.com/GruffGemini/simplefeatures)
 [![Coverage
-Status](https://coveralls.io/repos/github/peterstace/simplefeatures/badge.svg?branch=master)](https://coveralls.io/github/peterstace/simplefeatures?branch=master)
+Status](https://coveralls.io/repos/github/GruffGemini/simplefeatures/badge.svg?branch=master)](https://coveralls.io/github/GruffGemini/simplefeatures?branch=master)
 
 Simple Features is a 2D geometry library that provides Go types that model
 geometries, as well as algorithms that operate on them.
@@ -39,56 +39,56 @@ used those libraries before.
 </thead>
 
 <tr>
-<td><a href="https://pkg.go.dev/github.com/peterstace/simplefeatures/geom#Point">Point</a></td>
+<td><a href="https://pkg.go.dev/github.com/GruffGemini/simplefeatures/geom#Point">Point</a></td>
 <td><a href="https://commons.wikimedia.org/wiki/File:SFA_Point.svg"><img width=51 height=51 src="https://upload.wikimedia.org/wikipedia/commons/c/c2/SFA_Point.svg"></a></td>
 <td>Point is a single location in space.</td>
 </tr>
 
 <tr>
-<td><a href="https://pkg.go.dev/github.com/peterstace/simplefeatures/geom#MultiPoint">MultiPoint</a></td>
+<td><a href="https://pkg.go.dev/github.com/GruffGemini/simplefeatures/geom#MultiPoint">MultiPoint</a></td>
 <td><a href="https://commons.wikimedia.org/wiki/File:SFA_MultiPoint.svg"><img width=51 height=51  src="https://upload.wikimedia.org/wikipedia/commons/d/d6/SFA_MultiPoint.svg"></a></td>
 <td>MultiPoint is collection of points in space.</td>
 </tr>
 
 <tr>
-<td><a href="https://pkg.go.dev/github.com/peterstace/simplefeatures/geom#LineString">LineString</a></td>
+<td><a href="https://pkg.go.dev/github.com/GruffGemini/simplefeatures/geom#LineString">LineString</a></td>
 <td><a href="https://commons.wikimedia.org/wiki/File:SFA_LineString.svg"><img width=51 height=51  src="https://upload.wikimedia.org/wikipedia/commons/b/b9/SFA_LineString.svg"></a></td>
 <td>LineString is curve defined by linear interpolation between a set of
 control points.</td>
 </tr>
 
 <tr>
-<td><a href="https://pkg.go.dev/github.com/peterstace/simplefeatures/geom#MultiLineString">MultiLineString</a></td>
+<td><a href="https://pkg.go.dev/github.com/GruffGemini/simplefeatures/geom#MultiLineString">MultiLineString</a></td>
 <td><a href="https://commons.wikimedia.org/wiki/File:SFA_MultiLineString.svg"><img width=51 height=51  src="https://upload.wikimedia.org/wikipedia/commons/8/86/SFA_MultiLineString.svg"></a></td>
 <td>MultiLineString is a collection of LineStrings.</td>
 </tr>
 
 <tr>
-<td><a href="https://pkg.go.dev/github.com/peterstace/simplefeatures/geom#Polygon">Polygon</a></td>
+<td><a href="https://pkg.go.dev/github.com/GruffGemini/simplefeatures/geom#Polygon">Polygon</a></td>
 <td><a href="https://commons.wikimedia.org/wiki/File:SFA_Polygon.svg"><img width=51 height=51  src="https://upload.wikimedia.org/wikipedia/commons/5/55/SFA_Polygon_with_hole.svg"></a></td>
 <td>Polygon is a planar surface geometry that bounds some area. It may have holes.</td>
 </tr>
 
 <tr>
-<td><a href="https://pkg.go.dev/github.com/peterstace/simplefeatures/geom#MultiPolygon">MultiPolygon</a></td>
+<td><a href="https://pkg.go.dev/github.com/GruffGemini/simplefeatures/geom#MultiPolygon">MultiPolygon</a></td>
 <td><a href="https://commons.wikimedia.org/wiki/File:SFA_MultiPolygon.svg"><img width=51 height=51  src="https://upload.wikimedia.org/wikipedia/commons/3/3b/SFA_MultiPolygon_with_hole.svg"></a></td>
 <td>MultiPolygon is collection of Polygons (with some constraints on how the Polygons interact with each other).</td>
 </tr>
 
 <tr>
-<td><a href="https://pkg.go.dev/github.com/peterstace/simplefeatures/geom#GeometryCollection">GeometryCollection</a></td>
+<td><a href="https://pkg.go.dev/github.com/GruffGemini/simplefeatures/geom#GeometryCollection">GeometryCollection</a></td>
 <td><a href="https://commons.wikimedia.org/wiki/File:SFA_GeometryCollection.svg"><img width=51 height=51  src="https://upload.wikimedia.org/wikipedia/commons/1/1d/SFA_GeometryCollection.svg"></a></td>
 <td>GeometryCollection is an unconstrained collection of geometries.</td>
 </tr>
 
 <tr>
-<td><a href="https://pkg.go.dev/github.com/peterstace/simplefeatures/geom#Geometry">Geometry</a></td>
+<td><a href="https://pkg.go.dev/github.com/GruffGemini/simplefeatures/geom#Geometry">Geometry</a></td>
 <td><a href="https://commons.wikimedia.org/wiki/File:SFA_Polygon.svg"><img width=51 height=51  src="https://upload.wikimedia.org/wikipedia/commons/5/55/SFA_Polygon_with_hole.svg"></a></td>
 <td>Geometry holds any type of geometry (Point, MultiPoint, LineString, MultiLineString, Polygon, MultiPolygon, or GeometryCollection). It's the type that the Simple Features library uses when it needs to represent geometries in a generic way.</td>
 </tr>
 
 <tr>
-<td><a href="https://pkg.go.dev/github.com/peterstace/simplefeatures/geom#Envelope">Envelope</a></td>
+<td><a href="https://pkg.go.dev/github.com/GruffGemini/simplefeatures/geom#Envelope">Envelope</a></td>
 <td><img src="./.ci/assets/envelope.svg"></td>
 <td>Envelope is an axis aligned bounding box typically used to describe the spatial extent of other geometric entities.</td>
 </tr>
@@ -112,44 +112,44 @@ The following algorithms are supported:
 
 | Miscellaneous Algorithms                                                                               | Description                                                                            |
 | ---                                                                                                    | ---                                                                                    |
-| [Area](https://pkg.go.dev/github.com/peterstace/simplefeatures/geom#Geometry.Area)                     | Finds the area of the geometry (for Polygons and MultiPolygons).                       |
-| [Centroid](https://pkg.go.dev/github.com/peterstace/simplefeatures/geom#Geometry.Centroid)             | Finds the centroid of the geometry.                                                    |
-| [ConvexHull](https://pkg.go.dev/github.com/peterstace/simplefeatures/geom#Geometry.ConvexHull)         | Finds the convex hull of the geometry.                                                 |
-| [Distance](https://pkg.go.dev/github.com/peterstace/simplefeatures/geom#Distance)                      | Finds the shortest distance between two geometries.                                    |
-| [Envelope](https://pkg.go.dev/github.com/peterstace/simplefeatures/geom#Geometry.Envelope)             | Finds the smallest axis-aligned bounding-box that surrounds the geometry.              |
-| [ExactEquals](https://pkg.go.dev/github.com/peterstace/simplefeatures/geom#ExactEquals)                | Determines if two geometries are structurally equal.                                   |
-| [Length](https://pkg.go.dev/github.com/peterstace/simplefeatures/geom#Geometry.Length)                 | Finds the length of the geometry (for LineStrings and MultiLineStrings).               |
-| [PointOnSurface](https://pkg.go.dev/github.com/peterstace/simplefeatures/geom#Geometry.PointOnSurface) | Finds a point that lies inside the geometry.                                           |
-| [Relate](https://pkg.go.dev/github.com/peterstace/simplefeatures/geom#Relate)                          | Calculates the DE-9IM intersection describing the relationship between two geometries. |
-| [Simplify](https://pkg.go.dev/github.com/peterstace/simplefeatures/geom#Simplify)                      | Simplifies a geometry using the Ramer–Douglas–Peucker algorithm.                       |
+| [Area](https://pkg.go.dev/github.com/GruffGemini/simplefeatures/geom#Geometry.Area)                     | Finds the area of the geometry (for Polygons and MultiPolygons).                       |
+| [Centroid](https://pkg.go.dev/github.com/GruffGemini/simplefeatures/geom#Geometry.Centroid)             | Finds the centroid of the geometry.                                                    |
+| [ConvexHull](https://pkg.go.dev/github.com/GruffGemini/simplefeatures/geom#Geometry.ConvexHull)         | Finds the convex hull of the geometry.                                                 |
+| [Distance](https://pkg.go.dev/github.com/GruffGemini/simplefeatures/geom#Distance)                      | Finds the shortest distance between two geometries.                                    |
+| [Envelope](https://pkg.go.dev/github.com/GruffGemini/simplefeatures/geom#Geometry.Envelope)             | Finds the smallest axis-aligned bounding-box that surrounds the geometry.              |
+| [ExactEquals](https://pkg.go.dev/github.com/GruffGemini/simplefeatures/geom#ExactEquals)                | Determines if two geometries are structurally equal.                                   |
+| [Length](https://pkg.go.dev/github.com/GruffGemini/simplefeatures/geom#Geometry.Length)                 | Finds the length of the geometry (for LineStrings and MultiLineStrings).               |
+| [PointOnSurface](https://pkg.go.dev/github.com/GruffGemini/simplefeatures/geom#Geometry.PointOnSurface) | Finds a point that lies inside the geometry.                                           |
+| [Relate](https://pkg.go.dev/github.com/GruffGemini/simplefeatures/geom#Relate)                          | Calculates the DE-9IM intersection describing the relationship between two geometries. |
+| [Simplify](https://pkg.go.dev/github.com/GruffGemini/simplefeatures/geom#Simplify)                      | Simplifies a geometry using the Ramer–Douglas–Peucker algorithm.                       |
 
 | Set Operations                                                                                          | Description                                                               |
 | ---                                                                                                     | ---                                                                       |
-| [Union](https://pkg.go.dev/github.com/peterstace/simplefeatures/geom#Union)                             | Joins the parts from two geometries together.                             |
-| [Intersection](https://pkg.go.dev/github.com/peterstace/simplefeatures/geom#Intersection)               | Finds the parts of two geometries that are in common.                     |
-| [Difference](https://pkg.go.dev/github.com/peterstace/simplefeatures/geom#Difference)                   | Finds the parts of a geometry that are not also part of another geometry. |
-| [SymmetricDifference](https://pkg.go.dev/github.com/peterstace/simplefeatures/geom#SymmetricDifference) | Finds the parts of two geometries that are not in common.                 |
+| [Union](https://pkg.go.dev/github.com/GruffGemini/simplefeatures/geom#Union)                             | Joins the parts from two geometries together.                             |
+| [Intersection](https://pkg.go.dev/github.com/GruffGemini/simplefeatures/geom#Intersection)               | Finds the parts of two geometries that are in common.                     |
+| [Difference](https://pkg.go.dev/github.com/GruffGemini/simplefeatures/geom#Difference)                   | Finds the parts of a geometry that are not also part of another geometry. |
+| [SymmetricDifference](https://pkg.go.dev/github.com/GruffGemini/simplefeatures/geom#SymmetricDifference) | Finds the parts of two geometries that are not in common.                 |
 
 
 | Named Spatial Predicates                                                              | Description                                             |
 | ---                                                                                   | ---                                                     |
-| [Equals](https://pkg.go.dev/github.com/peterstace/simplefeatures/geom#Equals)         | Determines if two geometries are topologically equal.   |
-| [Intersects](https://pkg.go.dev/github.com/peterstace/simplefeatures/geom#Intersects) | Determines if two geometries intersect with each other. |
-| [Disjoint](https://pkg.go.dev/github.com/peterstace/simplefeatures/geom#Disjoint)     | Determines if two geometries have no common points.     |
-| [Contains](https://pkg.go.dev/github.com/peterstace/simplefeatures/geom#Contains)     | Determines if one geometry contains another.            |
-| [CoveredBy](https://pkg.go.dev/github.com/peterstace/simplefeatures/geom#CoveredBy)   | Determines if one geometry is covered by another.       |
-| [Covers](https://pkg.go.dev/github.com/peterstace/simplefeatures/geom#Covers)         | Determines if one geometry covers another.              |
-| [Overlaps](https://pkg.go.dev/github.com/peterstace/simplefeatures/geom#Overlaps)     | Determines if one geometry overlaps another.            |
-| [Touches](https://pkg.go.dev/github.com/peterstace/simplefeatures/geom#Touches)       | Determines if one geometry touches another.             |
-| [Within](https://pkg.go.dev/github.com/peterstace/simplefeatures/geom#Within)         | Determines if one geometry is within another.           |
-| [Crosses](https://pkg.go.dev/github.com/peterstace/simplefeatures/geom#Crosses)       | Determines if one geometry crosses another.             |
+| [Equals](https://pkg.go.dev/github.com/GruffGemini/simplefeatures/geom#Equals)         | Determines if two geometries are topologically equal.   |
+| [Intersects](https://pkg.go.dev/github.com/GruffGemini/simplefeatures/geom#Intersects) | Determines if two geometries intersect with each other. |
+| [Disjoint](https://pkg.go.dev/github.com/GruffGemini/simplefeatures/geom#Disjoint)     | Determines if two geometries have no common points.     |
+| [Contains](https://pkg.go.dev/github.com/GruffGemini/simplefeatures/geom#Contains)     | Determines if one geometry contains another.            |
+| [CoveredBy](https://pkg.go.dev/github.com/GruffGemini/simplefeatures/geom#CoveredBy)   | Determines if one geometry is covered by another.       |
+| [Covers](https://pkg.go.dev/github.com/GruffGemini/simplefeatures/geom#Covers)         | Determines if one geometry covers another.              |
+| [Overlaps](https://pkg.go.dev/github.com/GruffGemini/simplefeatures/geom#Overlaps)     | Determines if one geometry overlaps another.            |
+| [Touches](https://pkg.go.dev/github.com/GruffGemini/simplefeatures/geom#Touches)       | Determines if one geometry touches another.             |
+| [Within](https://pkg.go.dev/github.com/GruffGemini/simplefeatures/geom#Within)         | Determines if one geometry is within another.           |
+| [Crosses](https://pkg.go.dev/github.com/GruffGemini/simplefeatures/geom#Crosses)       | Determines if one geometry crosses another.             |
 
 ### GEOS Wrapper
 
 A [GEOS](https://www.osgeo.org/projects/geos/) CGO wrapper is also provided,
 giving access to functionality not yet implemented natively in Go. The [wrapper
 is implemented in a separate
-package](https://pkg.go.dev/github.com/peterstace/simplefeatures/geos?tab=doc),
+package](https://pkg.go.dev/github.com/GruffGemini/simplefeatures/geos?tab=doc),
 meaning that library users who don't need this additional functionality don't
 need to expose themselves to CGO.
 

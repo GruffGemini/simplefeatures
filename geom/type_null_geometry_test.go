@@ -5,7 +5,7 @@ import (
 	"database/sql/driver"
 	"testing"
 
-	"github.com/peterstace/simplefeatures/geom"
+	"github.com/GruffGemini/simplefeatures/geom"
 )
 
 func TestNullGeometryScan(t *testing.T) {

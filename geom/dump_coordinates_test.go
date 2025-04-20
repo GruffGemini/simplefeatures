@@ -3,7 +3,7 @@ package geom_test
 import (
 	"testing"
 
-	"github.com/peterstace/simplefeatures/geom"
+	"github.com/GruffGemini/simplefeatures/geom"
 )
 
 func TestDumpCoordinatesPoint(t *testing.T) {

@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/peterstace/simplefeatures/geom"
-	"github.com/peterstace/simplefeatures/geos"
+	"github.com/GruffGemini/simplefeatures/geom"
+	"github.com/GruffGemini/simplefeatures/geos"
 )
 
 func BenchmarkSetOperation(b *testing.B) {

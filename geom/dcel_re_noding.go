@@ -70,7 +70,7 @@ func reNodeGeometries(g1, g2 Geometry, mls MultiLineString) (Geometry, Geometry,
 			// TODO: This is a hacky approach (re-orders inputs, rather than
 			// making the operation truly symmetric). Instead, it would be
 			// better to use "solution 2" described in
-			// https://github.com/peterstace/simplefeatures/issues/574.
+			// https://github.com/GruffGemini/simplefeatures/issues/574.
 			inter := symmetricLineIntersection(ln, other)
 
 			if !inter.empty {

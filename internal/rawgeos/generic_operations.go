@@ -6,7 +6,7 @@ package rawgeos
 import "C"
 
 import (
-	"github.com/peterstace/simplefeatures/geom"
+	"github.com/GruffGemini/simplefeatures/geom"
 )
 
 func binaryOpE(

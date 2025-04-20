@@ -1,5 +1,5 @@
 // Package cartodemo_test contains demo code for the
-// github.com/peterstace/simplefeatures/carto package.
+// github.com/GruffGemini/simplefeatures/carto package.
 //
 // It's provided as a set of executable tests.
 package cartodemo_test
@@ -17,9 +17,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/peterstace/simplefeatures/carto"
-	"github.com/peterstace/simplefeatures/geom"
-	"github.com/peterstace/simplefeatures/internal/cartodemo/rasterize"
+	"github.com/GruffGemini/simplefeatures/carto"
+	"github.com/GruffGemini/simplefeatures/geom"
+	"github.com/GruffGemini/simplefeatures/internal/cartodemo/rasterize"
 )
 
 const (
@@ -351,7 +351,7 @@ func loadGeom(t *testing.T, filename string) geom.Geometry {
 
 	// TODO: There is currently no way to disable a GeoJSON GeometryCollection
 	// without validation directly. See
-	// https://github.com/peterstace/simplefeatures/issues/638. For now, we
+	// https://github.com/GruffGemini/simplefeatures/issues/638. For now, we
 	// unmarshal the GeoJSON FeatureCollection "manually" to avoid validation.
 	var collection struct {
 		Features []struct {

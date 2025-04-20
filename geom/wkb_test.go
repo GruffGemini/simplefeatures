@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/peterstace/simplefeatures/geom"
+	"github.com/GruffGemini/simplefeatures/geom"
 )
 
 func hexStringToBytes(tb testing.TB, s string) []byte {

@@ -9,7 +9,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/peterstace/simplefeatures/geom"
+	"github.com/GruffGemini/simplefeatures/geom"
 )
 
 // TODO: These are additional geometries. Needs something a bit more robust...

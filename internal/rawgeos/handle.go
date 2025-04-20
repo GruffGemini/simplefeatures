@@ -29,7 +29,7 @@ import (
 	"strings"
 	"unsafe"
 
-	"github.com/peterstace/simplefeatures/geom"
+	"github.com/GruffGemini/simplefeatures/geom"
 )
 
 // noop returns the geometry unaltered, via conversion to and from GEOS. This

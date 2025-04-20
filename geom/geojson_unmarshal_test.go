@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/peterstace/simplefeatures/geom"
+	"github.com/GruffGemini/simplefeatures/geom"
 )
 
 func TestGeoJSONUnmarshalValid(t *testing.T) {

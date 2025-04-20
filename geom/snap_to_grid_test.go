@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/peterstace/simplefeatures/geom"
+	"github.com/GruffGemini/simplefeatures/geom"
 )
 
 func TestSnapPiFloat64ToGrid(t *testing.T) {

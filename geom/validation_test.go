@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/peterstace/simplefeatures/geom"
+	"github.com/GruffGemini/simplefeatures/geom"
 )
 
 func xy(x, y float64) geom.Coordinates {
@@ -163,7 +163,7 @@ func TestPolygonValidation(t *testing.T) {
 			`POLYGON((0 0,0 1,1 0,0 0),EMPTY)`,
 		},
 		{
-			// https://github.com/peterstace/simplefeatures/issues/631
+			// https://github.com/GruffGemini/simplefeatures/issues/631
 			geom.ViolateInteriorInExterior,
 			`POLYGON(
 				(1 1,5 1,5 5,1 5,1 1),

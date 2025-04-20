@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/peterstace/simplefeatures/rtree"
+	"github.com/GruffGemini/simplefeatures/rtree"
 )
 
 // Envelope is a generalised axis-aligned rectangle (also known as an Axis

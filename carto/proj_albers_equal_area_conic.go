@@ -1,6 +1,6 @@
 package carto
 
-import "github.com/peterstace/simplefeatures/geom"
+import "github.com/GruffGemini/simplefeatures/geom"
 
 // AlbersEqualAreaConic allows projecting (longitude, latitude) coordinates to
 // (x, y) pairs via the Albers equal area conic projection.

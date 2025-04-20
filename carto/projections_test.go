@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/peterstace/simplefeatures/carto"
-	"github.com/peterstace/simplefeatures/geom"
+	"github.com/GruffGemini/simplefeatures/carto"
+	"github.com/GruffGemini/simplefeatures/geom"
 )
 
 type projection interface {

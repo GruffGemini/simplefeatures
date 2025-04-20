@@ -8,7 +8,7 @@ tmp="$(mktemp)"
 
 for ((i = 0; i < 50; i++)); do
 	go test \
-		github.com/peterstace/simplefeatures/internal/perf \
+		github.com/GruffGemini/simplefeatures/internal/perf \
 		-run=^\$ -bench=SetOperation \
 		-benchtime 0.1s
 done | tee "$tmp"

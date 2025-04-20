@@ -3,7 +3,7 @@ package geom
 import (
 	"fmt"
 
-	"github.com/peterstace/simplefeatures/rtree"
+	"github.com/GruffGemini/simplefeatures/rtree"
 )
 
 // createGhosts creates a MultiLineString that connects all components of the

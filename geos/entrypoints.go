@@ -1,8 +1,8 @@
 package geos
 
 import (
-	"github.com/peterstace/simplefeatures/geom"
-	"github.com/peterstace/simplefeatures/internal/rawgeos"
+	"github.com/GruffGemini/simplefeatures/geom"
+	"github.com/GruffGemini/simplefeatures/internal/rawgeos"
 )
 
 // Equals returns true if and only if the input geometries are spatially equal,

@@ -1,6 +1,6 @@
 package carto
 
-import "github.com/peterstace/simplefeatures/geom"
+import "github.com/GruffGemini/simplefeatures/geom"
 
 // LambertConformalConic allows projecting (longitude, latitude) coordinates to
 // (x, y) pairs via the Lambert conformal conic projection.

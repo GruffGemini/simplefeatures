@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/GruffGemini/simplefeatures/geom"
 	"github.com/lib/pq"
-	"github.com/peterstace/simplefeatures/geom"
 )
 
 // BatchPostGIS is a DB access type allowing batch based interactions with a

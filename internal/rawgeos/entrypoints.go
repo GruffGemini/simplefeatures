@@ -61,7 +61,7 @@ import (
 	"fmt"
 	"unsafe"
 
-	"github.com/peterstace/simplefeatures/geom"
+	"github.com/GruffGemini/simplefeatures/geom"
 )
 
 func Equals(a, b geom.Geometry) (bool, error) {

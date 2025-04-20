@@ -1,6 +1,6 @@
 package geom
 
-import "github.com/peterstace/simplefeatures/rtree"
+import "github.com/GruffGemini/simplefeatures/rtree"
 
 // indexedLines is a simple container to hold a list of lines, and a r-tree
 // structure indexing those lines. The record IDs in the rtree correspond to

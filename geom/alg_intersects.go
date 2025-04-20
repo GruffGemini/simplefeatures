@@ -3,7 +3,7 @@ package geom
 import (
 	"fmt"
 
-	"github.com/peterstace/simplefeatures/rtree"
+	"github.com/GruffGemini/simplefeatures/rtree"
 )
 
 // Intersects return true if and only the two geometries intersect with each

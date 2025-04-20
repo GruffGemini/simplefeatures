@@ -6,7 +6,7 @@ import (
 	"math"
 	"unsafe"
 
-	"github.com/peterstace/simplefeatures/rtree"
+	"github.com/GruffGemini/simplefeatures/rtree"
 )
 
 // Polygon is a planar surface geometry. Its zero value is the empty Polygon.

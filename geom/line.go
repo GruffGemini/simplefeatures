@@ -1,7 +1,7 @@
 package geom
 
 import (
-	"github.com/peterstace/simplefeatures/rtree"
+	"github.com/GruffGemini/simplefeatures/rtree"
 )
 
 // line represents a line segment between two XY locations. It's an invariant
