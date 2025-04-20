@@ -40,21 +40,24 @@ func UnmarshalGeoJSON(input []byte, nv ...NoValidate) (Geometry, error) {
 	// | true     | false | true  | XYZ    |
 	// | true     | true  | false | DimXY  |
 	// | true     | true  | true  | DimXY  |
-	var has2D, has3D bool
+	var has2D, has3D, has4D bool
 	for length := range hasLength {
 		if length == 2 {
 			has2D = true
 		}
 
-		// The GeoJSON spec allows parsers to ignore any "extra" coordinate
-		// values in addition to the normal 3 coordinate values used to specify
-		// a 3D position. So having a length strictly greater than 3 is not an
-		// error.
-		if length >= 3 {
+		if length == 3 {
 			has3D = true
+		}
+
+		if length >= 4 {
+			has4D = true
 		}
 	}
 	ctype := DimXY
+	if has4D {
+		ctype = DimXYZM
+	}
 	if !has2D && has3D {
 		ctype = DimXYZ
 	}
